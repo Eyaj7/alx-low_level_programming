@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - function that print signs
+ * print_sign - In function ‘print_sign’
  * @n : function parameter
  *
  * Return: Always 0.
@@ -13,7 +13,7 @@ if (n > 0)
 _putchar('+');
 return (1);
 }
-else if (n = 0)
+else if (n == 0)
 {
 _putchar('0');
 return (0);
