@@ -3,13 +3,15 @@
 /**
  * print_last_digit - function 'print_last_digit'
  *@i : parameter
- * Return: k
+ * Return: lastDigit
  */
 int print_last_digit(int n)
 {
-(int k);
-k = i % 10;
+int lastDigit;
 if (i < 0)
-k = -k;
-return (k);
+lastDigit = -1 * (n % 10);
+else
+lastDigit = n % 10;
+_putchar(lastDigit + '0');
+return (lastDigit);
 }
