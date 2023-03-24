@@ -24,6 +24,7 @@ for (c = 0; c <= b; c++)
 {
 _putchar('#');
 }
+_putchar('\n');
 }
 }
 }
