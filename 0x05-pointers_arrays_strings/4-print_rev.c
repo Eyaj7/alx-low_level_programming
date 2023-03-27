@@ -4,21 +4,19 @@
  * @s: string
  * Return: Always(0)
  */
-void print_rev(char *s);
-int longi = 0;
-
+void print_rev(char *s)
+{
+int count = 0;
 while (*s)
 {
 s++;
 count++;
 }
-
 while (count)
 {
 s--;
-_putchar(*s);
+putchar(*s);
 count--;
 }
-
-_putchar('\n');
+putchar('\n');
 }
