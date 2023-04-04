@@ -15,5 +15,5 @@ while (i < n)
 dest[i] = src[i];
 i++;
 }
-return (dest)
+return (dest);
 }
