@@ -45,7 +45,7 @@ if  (buffer == NULL)
 printf("failed to allocate memory\n");
 return (1);
 }
-imple_print_buffer(buffer, 98);
+simple_print_buffer(buffer, 98);
 free(buffer);
 return (0);
 }
