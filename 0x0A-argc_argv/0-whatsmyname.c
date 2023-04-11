@@ -2,11 +2,11 @@
 #include "main.h"
 /**
  *main - program that prints its name
- *@agrc: number of arguments
- *@argv: array of arguments
+ *@agrc: int
+ *@argv: int
  *Return: Always (0)
  **/
-int main(int argc, char const **argv[])
+int main(int argc, char const **argv)
 {
 (void)argc;
 printf("%s\n", argv[0]);
