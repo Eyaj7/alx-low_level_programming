@@ -5,7 +5,8 @@
  * sum_them_all - function
  * @n: number
  * @...: variable number
- * Return: Always(0)
+ * Return: If n == 0 - 0.
+ *Otherwise - the sum of all parameters.
  */
 int sum_them_all(const unsigned int n, ...)
 {
