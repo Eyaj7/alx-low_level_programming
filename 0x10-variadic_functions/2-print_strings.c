@@ -15,12 +15,15 @@ va_list strings;
 char *str;
 unsigned int i;
 va_start(strings, n);
+if (separator == NULL)
+separator = "";
 for (i = 0; i < n; i++)
 {
 str = va_arg(strings, char*);
 if (str == NULL)
-printf("(nil)");
-else
+str = "(nil)";
+printf("%s", str);
+if (i < n - 1)
 printf("%s", separator);
 }
 printf("\n");
