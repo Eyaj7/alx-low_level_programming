@@ -22,7 +22,7 @@ else
 {
 printf("[%d) %s\n", h->len, h->str);
 }
-i++;
+count++;
 h = h->next;
 }
 return (count);
