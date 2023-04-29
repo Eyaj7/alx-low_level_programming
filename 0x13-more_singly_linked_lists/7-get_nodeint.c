@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint - function
+ * get_nodeint_at_index - function
  * @head: pointer
  * @index: index of the node
  * Return: Always(0)
